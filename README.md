@@ -1,16 +1,27 @@
-# prueba1app
+# Dance-Studios-App
+A Flutter-based mobile application designed to explore dance studios in Finland. This app provides essential tools to locate studios on a map and learn more about them.
 
-prueba 1 flutter
+## ✧ Screenshots ✧
+<p align="center">
+  <img src="media/cap1DanceSt.png" alt="Screenshot 1" width="25%">
+  <img src="media/cap2DanceSt.png" alt="Screenshot 2" width="25%">
+  <img src="media/cap3DanceSt.png" alt="Screenshot 3" width="25%">
+</p>
 
-## Getting Started
+## ✧ Features ✧
+- **Studio List**: Browse a curated list of studios with detailed information.
+- **Interactive Map**: View dance studios located in Helsinki, Forssa, and Turku.
+- **Modern UI**: An appealing interface with a purple and white theme.
+- **Search and Filter**: Find studios by name or dance styles.
+- **Navigation Drawer**: Switch between pages easily with the side menu.
 
-This project is a starting point for a Flutter application.
+### ✧ Development ✧
+- **Technologies**:
+  - Flutter
+  - Google Maps API
 
-A few resources to get you started if this is your first Flutter project:
+### ✧ Contact ✧
+- **Email**: [alba03943@gmail.com](mailto:alba03943@gmail.com)
+- **LinkedIn**: [Alba Marmolejo Ramos](https://www.linkedin.com/in/alba-marmolejo-ramos-34b833331/)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### ✧ Author: AlbaMarm, 2024 ✧
