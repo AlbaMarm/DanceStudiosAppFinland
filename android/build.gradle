@@ -1,0 +1,30 @@
+buildscript {
+    repositories {
+        google()          // Repositorio necesario para el plugin de Android
+        mavenCentral()    // Repositorio adicional
+    }
+    dependencies {
+        // Asegúrate de que la versión del plugin sea correcta
+        classpath 'com.android.tools.build:gradle:8.2.1'    // Plugin de Android Gradle
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.0'   // Plugin de Kotlin
+    }
+}
+
+allprojects {
+    repositories {
+        google()          // Repositorio necesario para las dependencias
+        mavenCentral()    // Repositorio adicional
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
