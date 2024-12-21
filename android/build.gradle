@@ -1,19 +1,18 @@
 buildscript {
     repositories {
-        google()          // Repositorio necesario para el plugin de Android
-        mavenCentral()    // Repositorio adicional
+        google()
+        mavenCentral()
     }
     dependencies {
-        // Asegúrate de que la versión del plugin sea correcta
-        classpath 'com.android.tools.build:gradle:8.2.1'    // Plugin de Android Gradle
-        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.0'   // Plugin de Kotlin
+        classpath 'com.android.tools.build:gradle:8.2.1'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.0'
     }
 }
 
 allprojects {
     repositories {
-        google()          // Repositorio necesario para las dependencias
-        mavenCentral()    // Repositorio adicional
+        google()
+        mavenCentral()
     }
 }
 
